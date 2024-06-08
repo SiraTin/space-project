@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Barlow";
+    src: url("/assets/fonts/Barlow/Barlow-Regular.ttf");
+}
+@font-face {
+    font-family: "Barlow_Condensed";
+    src: url("/assets/fonts/Barlow_condensed/BarlowCondensed-Regular.ttf");
+}
+@font-face {
+    font-family: "Bellefair";
+    src: url("/assets/fonts/Bellefair/Bellefair-Regular.ttf");
+}
+
+
+.font_barlow {
+    font-family: "Barlow";
+}
+
+.font_barlow-condensed{
+    font-family: "Barlow_Condensed";
+}
+
+.font_bellefair {
+    font-family: "Bellefair";
+}

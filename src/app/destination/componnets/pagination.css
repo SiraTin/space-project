@@ -1,0 +1,40 @@
+
+
+.swiper-pagination-bullet {
+    margin: 2rem 1rem;
+    cursor: pointer;
+}
+
+
+.swiper-pagination-bullet::after{
+    content: '';
+    display: block;
+    width: 0;
+    background: #fff;
+    height: 4px;
+    transition: 0.5s;
+}
+
+.swiper-pagination-bullet:hover{
+    color: #fff;
+}
+
+.swiper-pagination-bullet:hover::after{
+    width: 100%;
+
+}
+
+.swiper-pagination-bullet-active{
+    color: #fff;
+}
+
+.swiper-pagination-bullet-active::after{
+    width: 100%;
+}
+
+@media only screen and (min-width: 800px){
+    
+.swiper-pagination-bullet:first-child{
+    margin: 2rem 1rem 2rem 0;
+}
+}

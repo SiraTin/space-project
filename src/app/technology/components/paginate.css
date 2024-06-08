@@ -1,0 +1,36 @@
+.swiper-pagination-bullet {
+    margin: 0rem 0.5rem 2rem 0.5rem;
+    cursor: pointer;
+}
+
+
+.swiper-pagination-bullet{
+    width: 2rem;
+    height: 2rem;
+    border: 1.5px solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+
+.swiper-pagination-bullet:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.swiper-pagination-bullet-active{
+    color: #000;
+    background-color: #fff;
+}
+
+
+@media only screen and (min-width:768px){
+    .swiper-pagination-bullet{
+        width: 4rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+}
